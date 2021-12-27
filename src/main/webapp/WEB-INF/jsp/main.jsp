@@ -23,6 +23,7 @@ String errorMsg = (String) request.getAttribute("errorMsg");
 </p>
 <p><a href="/tweet/Main">更新</a></p>
 <form action="/tweet/Main" method="post">
+<input type="text" name="text">
 <input type="submit" value="つぶやく">
 </form>
 <% if(errorMsg != null) { %>
